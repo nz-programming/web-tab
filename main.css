@@ -1,0 +1,46 @@
+body {
+    color: #3f4548;
+}
+
+.tabs-menu{
+    margin: 0;
+    padding: 0;
+}
+
+.tabs-menu div{
+    display: block;
+    float: left;
+    padding: 10px 20px;
+    margin-right: 8px;
+    margin-bottom: -1px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    border-radius: 4px 4px 0 0;
+    color: #557f95;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.tabs-menu div:not(.active):hover{
+    border-color: #f0f0f0 #f0f0f0 #999;
+    background-color: #f0f0f0;
+}
+
+.tabs-menu .active{
+    color: #3f4548;
+    border-color: #999 #999 transparent #999;
+    background-color: #fff;
+}
+
+.tabs-content {
+    clear: both;
+    border: 1px solid #999;
+    border-radius: 0 4px 4px 4px;
+    padding: 10px;
+}
+
+.tabs-content > div {
+    display: none;
+}
